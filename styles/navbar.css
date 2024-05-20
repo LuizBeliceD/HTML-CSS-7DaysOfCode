@@ -1,0 +1,33 @@
+
+.cabecalho__navbar{
+    padding: 1.5em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__navbar__imagem{
+    padding-right: 8em;
+}
+
+.navbar__lista-links{
+    display: flex;
+    gap: 2em;
+    margin-right: auto;
+}
+
+.navbar__lista-links__link,.navbar__login__link, .navbar__login__link-cadastrar{
+    text-decoration: none;
+    color: var(--cinza-textos);
+}
+
+.navbar__login__link{
+    padding: 0 1em;
+}
+
+.navbar__login__link-cadastrar{
+    padding: 0.8em;
+    color: var(--branco);
+    background-color: var(--vermelho-principal);
+    border-radius: 8px;
+}

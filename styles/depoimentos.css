@@ -1,0 +1,31 @@
+.depoimentos{
+    width: 85%;
+    margin: 4.5em auto 6em auto;
+    text-align: center;
+    background-color: var(--vermelho-claro);
+    padding: 4em;
+}
+
+.depoimentos__titulo-menor{
+    font-size: 0.875em;
+    font-weight: 600;
+    color: var(--vermelho-principal);
+}
+
+.depoimentos__titulo-maior{
+    font-size: 2.25em;
+    font-weight: 500;
+    color: var(--preto-titulos);
+    padding: 1rem 0 2rem 0;
+}
+
+.depoimentos__nome{
+    font-weight: 500;
+    color: var(--preto-titulos);
+    padding: 1em 0 0.5em 0;
+}
+
+.depoimentos__profissao{
+    font-size: 0.875em;
+    color: var(--cinza-textos);
+}

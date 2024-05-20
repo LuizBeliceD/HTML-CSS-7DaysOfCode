@@ -1,0 +1,33 @@
+
+
+.container__metricas{
+    height: 18em;
+    padding: 0 5em 6em 5em;
+}
+
+.metricas{
+   width: 17.5em;
+}
+
+.lista__metricas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.metricas__valor{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-principal);
+}
+
+.metricas__titulo{
+    font-size: 18px;
+    color: var(--preto-titulos);
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+.metricas__texto{
+    color: var(--cinza-textos);
+    line-height: 120%;
+}

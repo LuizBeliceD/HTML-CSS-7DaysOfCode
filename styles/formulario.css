@@ -1,0 +1,37 @@
+
+.formulario{
+    width: 60%;
+    /* margin: auto; */
+    text-align: center;
+    padding: 6rem 19rem 0rem 19rem;
+    background-color: var(--cor-background-formulario);
+}
+
+.formulario__texto{
+    padding: 1.25rem 0 2.5rem 0 ;
+    font-size: 1.25rem;
+    color: var(--cinza-textos);
+}
+
+.formulario__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--preto-titulos);
+}
+
+.formulario__input::placeholder{
+    font-family: var(--fonte);
+}
+
+.formulario__input{
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid var(--cinza-borda);
+}
+
+.formulario__direitos{
+    color: var(--cor-direitos-reservados);
+    padding: 2em 0 6rem 0;
+}

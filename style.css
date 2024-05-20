@@ -1,0 +1,18 @@
+:root{
+    --vermelho-principal: #8E2424;
+    --vermelho-claro: #fffafa;
+    --preto-titulos: #101828;
+    --cinza-textos: #667085;
+    --branco: #FFFFFF;
+    --fonte: "Inter";
+    --cinza-borda:#EAECF0;
+    --cor-background-formulario:#F9FAFB;
+    --cor-direitos-reservados:#98A2B3;
+}
+
+
+body{
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
